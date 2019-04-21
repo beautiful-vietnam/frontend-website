@@ -19,25 +19,24 @@
       </b-navbar>
       <div class="wrap-content">
         <h1 class="heading">
-          Discover Amazing places in Japan
+          Khám phá những địa điểm tuyệt vời ở Việt Nam
         </h1>
         <p class="description">
-          Jump off balcony, onto stranger's head. Chase ball of string hide when
-          guests come over. Being gorgeous with belly side up i could pee on
-          this if i had the energy but under the bed, for attack the child, open
-          the door,
+          Bạn còn trẻ, xăng còn rẻ, đôi chân còn khỏe. Một lần trong đời, hãy
+          xách ba lô lên và đi, tìm kiếm cho mình những niềm vui và trải nghiệm
+          mới, đừng sợ mệt, đừng sợ ngày mai, đừng ngại không có tiền.
         </p>
         <div class="wrap-search">
           <b-input-group class="mb-2 mr-sm-2 mb-sm-0">
             <b-input
               class="custom-input"
-              placeholder="What would you like to do?"
+              placeholder="Bạn thích làm gì?"
             ></b-input>
             <b-input
               class="custom-input"
-              placeholder="Where would you like to go?"
+              placeholder="Bạn muốn đi đâu?"
             ></b-input>
-            <b-button class="button-search">SEARCH</b-button>
+            <b-button class="button-search">TÌM KIẾM</b-button>
           </b-input-group>
         </div>
       </div>
@@ -56,7 +55,6 @@
   }
 }
 .nav-link {
-  font-family: Lato;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
@@ -70,7 +68,7 @@
 }
 .wrap-content {
   .heading {
-    font-weight: 500;
+    font-weight: 400;
     font-size: 3rem;
     color: #ffffff;
     margin-top: 8rem;
@@ -95,12 +93,11 @@
       border-left: 0;
       &::placeholder {
         color: #fff;
-        font-weight: 500;
         font-size: 1.2rem;
-        font-family: Lato;
       }
     }
     .button-search {
+      font-weight: bold;
       border-radius: 0;
       background: #1b7dff;
       border: 0;
