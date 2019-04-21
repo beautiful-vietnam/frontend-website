@@ -67,10 +67,10 @@
   cursor: pointer;
   .image-lg {
     width: 551px;
-    height: 354px;
+    height: 330px;
   }
   .image-sm {
-    height: 283px;
+    height: 250px;
     width: 364px;
   }
   .category {
@@ -80,7 +80,7 @@
     line-height: 60px;
     margin-top: -80px;
     margin-left: 30px;
-    color: #ffffffdb;
+    color: #ffffffee;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
 }
