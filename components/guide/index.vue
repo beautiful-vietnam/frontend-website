@@ -49,7 +49,7 @@
   box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
   .title {
     font-weight: 500;
-    font-size: 35px;
+    font-size: 2rem;
     line-height: 42px;
   }
   .wrap-content {
@@ -57,7 +57,7 @@
     .title-content {
       margin-top: 2rem;
       font-weight: 500;
-      font-size: 18px;
+      font-size: 1.125rem;
       line-height: 24px;
       color: #000000;
     }
