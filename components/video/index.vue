@@ -1,33 +1,23 @@
 <template>
   <section class="wrap-video container">
-    <div class="wrap-content">
-      <div class="video-tile -first">
-        <img
-          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/39255/kf_glacier_1.jpg"
-        />
-        <video
-          src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/39255/kf_glacier_1.mp4"
-          preload="auto"
-          loop="true"
-        ></video>
-      </div>
-      <div class="video-toggle">
-        <div class="video-toggle-inner">
-          <video
-            src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/39255/kf_glacier_3.mp4"
-          ></video>
-        </div>
-      </div>
-    </div>
+    <img
+      src="/img/cover.png"
+      class="image"
+    />
+    <video
+      src="https://www.youtube.com/watch?v=OWxS6EOOVkg"
+      preload="auto"
+      loop="true"
+      class="video"
+    ></video>
   </section>
 </template>
 
 <script>
 export default {
   mounted() {
-    const abcde = ''
-    // eslint-disable-next-line no-console
-    console.log(abcde)
+    const video1 = document.getElementsByClassName('video')[0]
+    video1.play()
   }
 }
 </script>
@@ -35,5 +25,16 @@ export default {
 <style lang="scss" scoped>
 .wrap-video {
   margin-top: 7rem;
+  position: relative;
+  .image {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+  }
+  .video-first {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+  }
 }
 </style>

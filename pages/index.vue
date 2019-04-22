@@ -4,6 +4,7 @@
     <guide />
     <instagram />
     <introduction />
+    <blog />
     <my-video />
   </div>
 </template>
@@ -14,6 +15,7 @@ import Guide from '~/components/guide'
 import Instagram from '~/components/instagram'
 import Introduction from '~/components/introduction'
 import MyVideo from '~/components/video'
+import Blog from '~/components/blog'
 
 export default {
   components: {
@@ -21,7 +23,8 @@ export default {
     Guide,
     Instagram,
     Introduction,
-    MyVideo
+    MyVideo,
+    Blog
   }
 }
 </script>
