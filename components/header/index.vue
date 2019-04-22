@@ -3,16 +3,32 @@
     <div class="container">
       <b-navbar toggleable="lg" type="dark">
         <b-navbar-brand href="#">
-          <img src="/img/logo.png" alt="logo beautiful vietnam" />
+          <img src="/img/logo.png" alt="logo beautiful vietnam" class="logo" />
         </b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav class="ml-auto">
             <b-navbar-nav>
-              <b-nav-item href="#">Articles</b-nav-item>
-              <b-nav-item href="#">Locations</b-nav-item>
-              <b-nav-item href="#">Videos</b-nav-item>
-              <b-nav-item href="#">Sign in</b-nav-item>
+              <b-nav-item
+                href="https://facebook.com/beautiful.vietnam.official/"
+                target="_blank"
+                >Fanpage</b-nav-item
+              >
+              <b-nav-item
+                href="https://www.youtube.com/channel/UCx499tTpB3YTY9KUJgJ4XNQ"
+                target="_blank"
+                >Youtube</b-nav-item
+              >
+              <b-nav-item
+                href="https://www.instagram.com/beautiful_viet_nam/"
+                target="_blank"
+                >Instagram</b-nav-item
+              >
+              <b-nav-item
+                href="https://www.facebook.com/groups/312995652676992/"
+                target="_blank"
+                >Group Facebook</b-nav-item
+              >
             </b-navbar-nav>
           </b-navbar-nav>
         </b-collapse>
@@ -36,7 +52,9 @@
               class="custom-input"
               placeholder="Bạn muốn đi đâu?"
             ></b-input>
-            <b-button class="button-search">TÌM KIẾM</b-button>
+            <b-button class="button-search" @click="notification"
+              >TÌM KIẾM</b-button
+            >
           </b-input-group>
         </div>
       </div>
@@ -44,16 +62,29 @@
   </section>
 </template>
 
+<script>
+export default {
+  methods: {
+    notification() {
+      alert('Tính năng đang phát triển!!!')
+    }
+  }
+}
+</script>
+
 <style lang="scss" scoped>
 $color-primary: #a41c66;
 
 .wrap-header {
-  height: 125vh;
+  height: 910px;
   background-image: url('/img/background.png');
   background-size: cover;
   .container {
     background: none;
     padding-top: 20px;
+    .logo {
+      width: 125px;
+    }
   }
 }
 .nav-link {
@@ -65,12 +96,12 @@ $color-primary: #a41c66;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
   &:hover {
-    color: rgb(207, 207, 207) !important;
+    color: $color-primary !important;
   }
 }
 .wrap-content {
   .heading {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 3rem;
     color: #ffffff;
     margin-top: 8rem;
@@ -96,6 +127,11 @@ $color-primary: #a41c66;
       &::placeholder {
         color: #fff;
         font-size: 1.2rem;
+      }
+      &:focus {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        color: #fff;
       }
     }
     .button-search {

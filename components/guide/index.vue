@@ -43,7 +43,7 @@
 
 <style lang="scss" scoped>
 .wrap-guide {
-  margin-top: -14rem;
+  margin-top: -12rem;
   background: #fff;
   padding: 5rem 4.5rem;
   box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
