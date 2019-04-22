@@ -5,7 +5,7 @@
     </h2>
     <b-row class="wrap-content">
       <b-col>
-        <img src="/img/icon1.png" alt="icon instagram" />
+        <img src="/img/icon1.png" alt="icon instagram" class="icon" />
         <p class="title-content">
           Instagram
         </p>
@@ -16,7 +16,7 @@
         <a href="#" class="read-more">Xem thêm</a>
       </b-col>
       <b-col
-        ><img src="/img/icon3.png" alt="icon instagram" />
+        ><img src="/img/icon3.png" alt="icon fanpage" class="icon" />
         <p class="title-content">
           Fanpage
         </p>
@@ -27,7 +27,7 @@
         <a href="#" class="read-more">Xem thêm</a></b-col
       >
       <b-col>
-        <img src="/img/icon2.png" alt="icon instagram" />
+        <img src="/img/icon2.png" alt="icon group" class="icon" />
         <p class="title-content">
           Nhóm Facebook
         </p>
@@ -45,7 +45,7 @@
 .wrap-guide {
   margin-top: -12rem;
   background: #fff;
-  padding: 5rem 4.5rem;
+  padding: 5rem 4.5rem 7rem 4.5rem;
   box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
   .title {
     font-weight: 500;
@@ -53,7 +53,10 @@
     line-height: 42px;
   }
   .wrap-content {
-    margin-top: 5.5rem;
+    margin-top: 4.5rem;
+    .icon {
+      width: 65px;
+    }
     .title-content {
       margin-top: 2rem;
       font-weight: 500;
