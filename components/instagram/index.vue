@@ -34,6 +34,8 @@
 </template>
 
 <style lang="scss" scoped>
+$color-primary: #a41c66;
+
 .wrap-insta {
   margin-top: 7rem;
   .title {
@@ -44,7 +46,7 @@
     &:after {
       content: '';
       width: 250px;
-      border-bottom: 2px solid #006dfe;
+      border-bottom: 2px solid $color-primary;
       display: block;
       margin-top: 4px;
     }

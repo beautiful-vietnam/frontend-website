@@ -33,6 +33,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+$color-primary: #a41c66;
+
 .wrap-video {
   margin-top: 7rem;
   position: relative;
@@ -66,7 +68,7 @@ export default {
     font-size: 2.5rem;
     border-radius: 45px;
     background-color: rgba(255, 255, 255, 0.637);
-    color: #a41c66;
+    color: $color-primary;
     text-shadow: 0 0.25rem 1rem rgba(black, 0.1);
     padding-left: 6px;
   }

@@ -45,6 +45,8 @@
 </template>
 
 <style lang="scss" scoped>
+$color-primary: #a41c66;
+
 .wrap-header {
   height: 125vh;
   background-image: url('/img/background.png');
@@ -99,7 +101,7 @@
     .button-search {
       font-weight: bold;
       border-radius: 0;
-      background: #1b7dff;
+      background: $color-primary;
       border: 0;
       width: 125px;
       letter-spacing: 1px;
