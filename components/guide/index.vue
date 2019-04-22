@@ -13,7 +13,12 @@
           Chia sẻ những hình ảnh và video lưu lại khoảnh khắc tuyệt vời của bạn
           khi đi du lịch ở Việt Nam.
         </p>
-        <a href="#" class="read-more">Xem thêm</a>
+        <a
+          href="https://www.instagram.com/beautiful_viet_nam/"
+          target="_blank"
+          class="read-more"
+          >Xem thêm</a
+        >
       </b-col>
       <b-col
         ><img src="/img/icon3.png" alt="icon fanpage" class="icon" />
@@ -24,7 +29,12 @@
           Trang chia sẻ tin tức, thông tin về ngành du lịch trong nước cập nhật
           liên tục hàng ngày hàng giờ..
         </p>
-        <a href="#" class="read-more">Xem thêm</a></b-col
+        <a
+          href="https://facebook.com/beautiful.vietnam.official/"
+          target="_blank"
+          class="read-more"
+          >Xem thêm</a
+        ></b-col
       >
       <b-col>
         <img src="/img/icon2.png" alt="icon group" class="icon" />
@@ -35,7 +45,12 @@
           Nhóm chia sẻ những kinh nghiệm, hỏi đáp, tìm người đi du lịch cùng bạn
           trên khắp mọi miền đất nước.
         </p>
-        <a href="#" class="read-more">Xem thêm</a>
+        <a
+          href="https://www.facebook.com/groups/312995652676992/"
+          target="_blank"
+          class="read-more"
+          >Xem thêm</a
+        >
       </b-col>
     </b-row>
   </section>
