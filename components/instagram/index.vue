@@ -36,21 +36,32 @@
 <style lang="scss" scoped>
 $color-primary: #a41c66;
 
-@-webkit-keyframes shine {
-  100% {
-    left: 125%;
-    opacity: 1;
-  }
-}
-@keyframes shine {
-  100% {
-    left: 125%;
-    opacity: 1;
-  }
-}
-
 .wrap-insta {
   margin-top: 7rem;
+  .title {
+    float: left;
+    font-size: 2rem;
+    line-height: 42px;
+    color: #102746;
+    &:after {
+      content: '';
+      width: 250px;
+      border-bottom: 2px solid $color-primary;
+      display: block;
+      margin-top: 4px;
+    }
+  }
+  .share {
+    float: right;
+    &:after {
+      content: '';
+      background: url('/img/arrow.png') no-repeat;
+      height: 8px;
+      width: 33px;
+      display: inline-block;
+      margin: 0 0 2px 12px;
+    }
+  }
 }
 .wrap-image {
   clear: both;

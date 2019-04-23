@@ -8,7 +8,7 @@
           class="image-intro ma-3"
         />
       </b-col>
-      <b-col class="py-4 px-5">
+      <b-col class="pb-4 pt-2 px-5">
         <h3>Giới thiệu về Hà Nội</h3>
         <p class="description">
           Thành phố Hà Nội là Thủ đô ngàn năm văn hiến với những di tích cổ xưa,
@@ -23,9 +23,11 @@
       <b-col class="py-4 px-5">
         <h3>Giới thiệu về Đà Nẵng</h3>
         <p class="description">
-          Đà Nẵng được xem là điểm trung chuyển quan trọng trên con đường di sản
-          miền Trung, thành phố Đà Nẵng được bao bọc bởi 3 di sản văn hóa thế
-          giới: Huế, Hội An, Mỹ Sơn.
+          Đà Nẵng thành phố biển xinh đẹp hiền hòa và mếm khách, nơi mà bạn có
+          thể dễ dàng đến được bằng cả đường bộ, đường hàng không và đường thủy.
+          Một dấu ấn địa lý và lịch sử, điểm trung chuyển tiện lợi đến các di
+          sản văn hóa thế giới như Huế, Mỹ Sơn, Hội An và khu dự trữ sinh quyển
+          thế giới Cù Lao Chàm.
         </p>
         <a href="#" class="read-more">Xem thêm</a>
       </b-col>
