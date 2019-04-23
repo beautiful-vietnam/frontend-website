@@ -13,10 +13,10 @@
               alt="Card image cap"
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Hà Nội</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content...
+                Thành phố Hà Nội là Thủ đô ngàn năm văn hiến với những di tích
+                cổ xưa, cuộc sống yên bình...
               </p>
               <a href="#" class="btn btn-primary button">XEM THÊM</a>
             </div>
@@ -30,10 +30,10 @@
               alt="Card image cap"
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Đà Nẵng</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content...
+                Đà Nẵng là một thành phố trực thuộc trung ương, nằm trong vùng
+                Nam Trung Bộ, Việt Nam...
               </p>
               <a href="#" class="btn btn-primary button">XEM THÊM</a>
             </div>
@@ -47,10 +47,10 @@
               alt="Card image cap"
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Thừa thiên - Huế</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content...
+                Thừa Thiên - Huế là một tỉnh ven biển nằm ở vùng Bắc Trung Bộ
+                Việt Nam có tọa độ ở ...
               </p>
               <a href="#" class="btn btn-primary button">XEM THÊM</a>
             </div>
@@ -66,10 +66,10 @@
               alt="Card image cap"
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Ninh Bình</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content...
+                Ninh Bình thuộc khu vực đồng bằng sông Hồng dù chỉ có 2 huyện
+                duyên hải là Yên Khánh ...
               </p>
               <a href="#" class="btn btn-primary button">XEM THÊM</a>
             </div>
@@ -83,10 +83,10 @@
               alt="Card image cap"
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Hồ Chí Minh</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content...
+                Thành phố Hồ Chí Minh là thành phố lớn nhất Việt Nam, đồng thời
+                cũng là một trong những ...
               </p>
               <a href="#" class="btn btn-primary button">XEM THÊM</a>
             </div>
@@ -100,10 +100,10 @@
               alt="Card image cap"
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Hà Giang</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content...
+                Hà Giang phía đông giáp tỉnh Cao Bằng, phía tây giáp tỉnh Yên
+                Bái và Lào Cai, phía nam giáp tỉnh ...
               </p>
               <a href="#" class="btn btn-primary button">XEM THÊM</a>
             </div>
