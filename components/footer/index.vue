@@ -7,29 +7,50 @@
         </b-col>
         <b-col cols="2">
           <ul class="list">
-            <li>Company</li>
-            <li>About</li>
-            <li>Team</li>
-            <li>Careers</li>
-            <li>Privacy Policy</li>
+            <li class="connect">KẾT NÔI</li>
+            <li>
+              <a
+                href="https://facebook.com/beautiful.vietnam.official/"
+                class="text-footer"
+                target="_blank"
+                >Facebook</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.youtube.com/channel/UCx499tTpB3YTY9KUJgJ4XNQ"
+                class="text-footer"
+                target="_blank"
+                >Youtube</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/groups/312995652676992/"
+                class="text-footer"
+                target="_blank"
+                >Group</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/beautiful_viet_nam/"
+                class="text-footer"
+                target="_blank"
+                >Instagram</a
+              >
+            </li>
           </ul>
         </b-col>
-        <b-col cols="2">
+        <b-col cols="4">
           <ul class="list">
-            <li>Company</li>
-            <li>About</li>
-            <li>Team</li>
-            <li>Careers</li>
-            <li>Privacy Policy</li>
-          </ul>
-        </b-col>
-        <b-col cols="2">
-          <ul class="list">
-            <li>Company</li>
-            <li>About</li>
-            <li>Team</li>
-            <li>Careers</li>
-            <li>Privacy Policy</li>
+            <li class="connect">LIÊN HỆ</li>
+            <li>Email: beautiful.vietnam.official@gmail.com</li>
+            <li>
+              Địa chỉ: Tầng 4 - Hòa Bình Green City - 505 Minh Khai - Hai Bà
+              Trưng - Hà Nội
+            </li>
+            <li>Developed by: Sharp Team</li>
           </ul>
         </b-col>
       </b-row>
@@ -49,7 +70,14 @@ $color-primary: #a41c66;
     .list {
       list-style: none;
       font-weight: 300;
+      .connect {
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
     }
   }
+}
+.text-footer {
+  color: white !important;
 }
 </style>
