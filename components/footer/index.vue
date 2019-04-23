@@ -50,7 +50,12 @@
               Địa chỉ: Tầng 4 - Hòa Bình Green City - 505 Minh Khai - Hai Bà
               Trưng - Hà Nội
             </li>
-            <li>Developed by: Sharp Team</li>
+            <li>
+              Developed by:
+              <a href="https://sharpteam.netlify.com/" target="_blank"
+                >Sharp Team</a
+              >
+            </li>
           </ul>
         </b-col>
       </b-row>
