@@ -20,7 +20,7 @@
       </b-col>
     </b-row>
     <b-row class="mt-5 row-reverse">
-      <b-col class="py-4 px-5" sm="12" lg="6">
+      <b-col class="py-4 px-5 content-intro" sm="12" lg="6">
         <h3 class="title">Giới thiệu về Đà Nẵng</h3>
         <p class="description">
           Đà Nẵng thành phố biển xinh đẹp hiền hòa và mếm khách, nơi mà bạn có

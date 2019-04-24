@@ -7,7 +7,7 @@
         </b-col>
         <b-col cols="12" sm="2">
           <ul class="list">
-            <li class="connect">KẾT NÔI</li>
+            <li class="connect">KẾT NỐI</li>
             <li>
               <a
                 href="https://facebook.com/beautiful.vietnam.official/"
