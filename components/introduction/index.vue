@@ -1,14 +1,14 @@
 <template>
   <section class="wrap-intro container">
     <b-row>
-      <b-col>
+      <b-col sm="12" lg="6">
         <img
           src="/img/intro1.png"
           alt="gioi thieu ha noi"
           class="image-intro ma-3"
         />
       </b-col>
-      <b-col class="pb-4 pt-2 px-5">
+      <b-col class="pb-4 pt-2 px-5 content-intro">
         <h3>Giới thiệu về Hà Nội</h3>
         <p class="description">
           Thành phố Hà Nội là Thủ đô ngàn năm văn hiến với những di tích cổ xưa,
@@ -19,8 +19,8 @@
         <a href="#" class="read-more">Xem thêm</a>
       </b-col>
     </b-row>
-    <b-row class="mt-5">
-      <b-col class="py-4 px-5">
+    <b-row class="mt-5 row-reverse">
+      <b-col class="py-4 px-5" sm="12" lg="6">
         <h3>Giới thiệu về Đà Nẵng</h3>
         <p class="description">
           Đà Nẵng thành phố biển xinh đẹp hiền hòa và mếm khách, nơi mà bạn có
@@ -64,6 +64,20 @@
     width: 33px;
     display: inline-block;
     margin: 0 0 2px 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .image-intro {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .content-intro {
+    margin-top: 1rem;
+  }
+  .row-reverse {
+    flex-direction: column;
+    flex-direction: column-reverse;
   }
 }
 </style>

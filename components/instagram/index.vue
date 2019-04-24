@@ -5,26 +5,26 @@
     </h2>
     <a href="#" class="share">CHIA SẺ VỚI CHÚNG TÔI</a>
     <div class="wrap-image">
-      <b-row>
-        <b-col class="pr-1">
+      <b-row class="mx-0">
+        <b-col class="px-0" sm="12" lg="6">
           <img src="/img/insta1.png" alt="ha noi" class="image-lg" />
           <p class="category">Hà Nội</p>
         </b-col>
-        <b-col class="pl-1">
+        <b-col class="px-0" sm="12" lg="6">
           <img src="/img/insta2.png" alt="da nang" class="image-lg" />
           <p class="category">Đà Nẵng</p>
         </b-col>
       </b-row>
-      <b-row class="mt-2">
-        <b-col class="pr-0">
-          <img src="/img/insta3.png" alt="hue" class="image-sm" />
+      <b-row class="mx-0 mt-1">
+        <b-col class="px-0" sm="12" lg="4">
+          <img src="/img/insta3.png" alt="hue" class="image-sm mt-remove" />
           <p class="category">Huế</p>
         </b-col>
-        <b-col class="px-2">
+        <b-col class="px-0" sm="12" lg="4">
           <img src="/img/insta4.png" alt="ninh binh" class="image-sm" />
           <p class="category">Ninh Bình</p>
         </b-col>
-        <b-col class="pl-0">
+        <b-col class="px-0" sm="12" lg="4">
           <img src="/img/insta5.png" alt="ha giang" class="image-sm" />
           <p class="category">Hà Giang</p>
         </b-col>
@@ -73,7 +73,7 @@ $color-primary: #a41c66;
   }
   .image-sm {
     height: 250px;
-    width: 364px;
+    width: 365px;
   }
   .category {
     position: absolute;
@@ -84,6 +84,26 @@ $color-primary: #a41c66;
     margin-left: 30px;
     color: #ffffffee;
     text-shadow: 0px 4px 4px #000;
+  }
+}
+
+@media (max-width: 992px) {
+  .image-lg {
+    width: 100% !important;
+    height: auto !important;
+    &:nth-child(1) {
+      margin-top: 5px;
+    }
+  }
+  .image-sm {
+    width: 100% !important;
+    height: auto !important;
+    &:nth-child(1) {
+      margin-top: 5px;
+    }
+  }
+  .mt-remove {
+    margin-top: 0 !important;
   }
 }
 </style>

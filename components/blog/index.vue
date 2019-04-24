@@ -147,7 +147,7 @@ $color-primary: #a41c66;
   .card-img-top {
     border-radius: 0;
     width: 100%;
-    height: 240px;
+    height: auto;
   }
   .card-body {
     padding: 0;
