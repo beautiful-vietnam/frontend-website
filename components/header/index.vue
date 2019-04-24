@@ -144,4 +144,34 @@ $color-primary: #a41c66;
     }
   }
 }
+
+@media (max-width: 576px) {
+  .wrap-header {
+    height: 750px;
+    .wrap-search {
+      margin-top: 2rem;
+    }
+    .button-search {
+      font-size: 14px;
+    }
+  }
+  .heading {
+    font-size: 1.7rem !important;
+    margin-top: 3rem !important;
+  }
+  .custom-input {
+    width: 100%;
+    padding: 0 0 5px 25px !important;
+    margin-right: 0 !important;
+    background-size: 15px 15px !important;
+    height: 25px;
+    &::placeholder {
+      font-size: 0.9rem !important;
+    }
+    &:nth-child(2) {
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+  }
+}
 </style>

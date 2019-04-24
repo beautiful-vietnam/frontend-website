@@ -90,4 +90,13 @@ $color-primary: #a41c66;
     transform: scale(1);
   }
 }
+
+@media (max-width: 576px) {
+  .wrap-video {
+    margin-top: 2rem;
+    .image {
+      height: 280px;
+    }
+  }
+}
 </style>

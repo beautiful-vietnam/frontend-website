@@ -1,3 +1,9 @@
 a {
   color: #a41c66;
 }
+
+@media (max-width: 576px) {
+  p {
+    font-size: 14px;
+  }
+}

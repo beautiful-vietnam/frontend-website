@@ -5,7 +5,7 @@
     </h2>
     <div class="wrap-image">
       <b-row>
-        <b-col>
+        <b-col cols="12" sm="4">
           <div class="card">
             <img
               class="card-img-top"
@@ -22,7 +22,7 @@
             </div>
           </div>
         </b-col>
-        <b-col>
+        <b-col cols="12" sm="4">
           <div class="card">
             <img
               class="card-img-top"
@@ -39,7 +39,7 @@
             </div>
           </div>
         </b-col>
-        <b-col>
+        <b-col cols="12" sm="4">
           <div class="card">
             <img
               class="card-img-top"
@@ -57,7 +57,7 @@
           </div>
         </b-col>
       </b-row>
-      <b-row class="row2">
+      <b-row class="row2" cols="12" sm="4">
         <b-col>
           <div class="card">
             <img
@@ -75,7 +75,7 @@
             </div>
           </div>
         </b-col>
-        <b-col>
+        <b-col cols="12" sm="4">
           <div class="card">
             <img
               class="card-img-top"
@@ -92,7 +92,7 @@
             </div>
           </div>
         </b-col>
-        <b-col>
+        <b-col cols="12" sm="4">
           <div class="card">
             <img
               class="card-img-top"
@@ -168,6 +168,22 @@ $color-primary: #a41c66;
       border-radius: 0;
       background: $color-primary;
       border: $color-primary;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .wrap-blog {
+    margin-top: 2rem;
+    .title {
+      font-size: 1.5rem;
+    }
+    .button {
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+    .card {
+      width: 100%;
     }
   }
 }

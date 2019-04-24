@@ -9,7 +9,7 @@
         />
       </b-col>
       <b-col class="pb-4 pt-2 px-5 content-intro">
-        <h3>Giới thiệu về Hà Nội</h3>
+        <h3 class="title">Giới thiệu về Hà Nội</h3>
         <p class="description">
           Thành phố Hà Nội là Thủ đô ngàn năm văn hiến với những di tích cổ xưa,
           cuộc sống yên bình. Nếu đã một lần du lịch Hà Nội, chắc chắn bạn không
@@ -21,7 +21,7 @@
     </b-row>
     <b-row class="mt-5 row-reverse">
       <b-col class="py-4 px-5" sm="12" lg="6">
-        <h3>Giới thiệu về Đà Nẵng</h3>
+        <h3 class="title">Giới thiệu về Đà Nẵng</h3>
         <p class="description">
           Đà Nẵng thành phố biển xinh đẹp hiền hòa và mếm khách, nơi mà bạn có
           thể dễ dàng đến được bằng cả đường bộ, đường hàng không và đường thủy.
@@ -78,6 +78,24 @@
   .row-reverse {
     flex-direction: column;
     flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 576px) {
+  .wrap-intro {
+    margin-top: 2rem;
+    .title {
+      font-size: 1.5rem;
+    }
+    .description {
+      margin-top: 1rem;
+    }
+    .read-more {
+      font-size: 0.9rem;
+    }
+    .content-intro {
+      padding: 0 1rem 1.5rem 1rem !important;
+    }
   }
 }
 </style>

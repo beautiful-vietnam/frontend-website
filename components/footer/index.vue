@@ -2,10 +2,10 @@
   <footer class="wrap-footer">
     <div class="wrap-content container">
       <b-row>
-        <b-col cols="6" class="text-center">
-          <img src="/img/logo-footer.png" alt="logo footer" />
+        <b-col cols="12" sm="6" class="text-center">
+          <img src="/img/logo-footer.png" alt="logo footer" class="logo" />
         </b-col>
-        <b-col cols="2">
+        <b-col cols="12" sm="2">
           <ul class="list">
             <li class="connect">KẾT NÔI</li>
             <li>
@@ -42,7 +42,7 @@
             </li>
           </ul>
         </b-col>
-        <b-col cols="4">
+        <b-col cols="12" sm="4">
           <ul class="list">
             <li class="connect">LIÊN HỆ</li>
             <li>Email: beautiful.vietnam.official@gmail.com</li>
@@ -84,5 +84,13 @@ $color-primary: #a41c66;
 }
 .text-footer {
   color: white !important;
+}
+@media (max-width: 576px) {
+  .wrap-content {
+    padding: 2rem 0 !important;
+  }
+  .logo {
+    width: 150px;
+  }
 }
 </style>

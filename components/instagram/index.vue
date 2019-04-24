@@ -106,4 +106,20 @@ $color-primary: #a41c66;
     margin-top: 0 !important;
   }
 }
+
+@media (max-width: 576px) {
+  .wrap-insta {
+    margin-top: 2rem;
+    .title {
+      font-size: 1.5rem;
+    }
+    .share {
+      font-size: 0.9rem;
+      float: left;
+    }
+    .category {
+      font-size: 1.5rem;
+    }
+  }
+}
 </style>
