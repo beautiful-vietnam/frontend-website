@@ -1,7 +1,7 @@
 <template>
   <section class="wrap-video container">
     <span id="play"></span>
-    <img src="/img/video.png" class="image" />
+    <img src="../../assets/img/video.png" class="image" />
     <video
       src="/video/vietnam.mp4"
       preload="auto"

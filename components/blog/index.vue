@@ -9,7 +9,7 @@
           <div class="card">
             <img
               class="card-img-top"
-              src="/img/blog1.png"
+              src="../../assets/img/blog1.png"
               alt="Card image cap"
             />
             <div class="card-body">
@@ -26,7 +26,7 @@
           <div class="card">
             <img
               class="card-img-top"
-              src="/img/blog2.png"
+              src="../../assets/img/blog2.png"
               alt="Card image cap"
             />
             <div class="card-body">
@@ -43,7 +43,7 @@
           <div class="card">
             <img
               class="card-img-top"
-              src="/img/blog3.png"
+              src="../../assets/img/blog3.png"
               alt="Card image cap"
             />
             <div class="card-body">
@@ -62,7 +62,7 @@
           <div class="card">
             <img
               class="card-img-top"
-              src="/img/blog4.png"
+              src="../../assets/img/blog4.png"
               alt="Card image cap"
             />
             <div class="card-body">
@@ -79,7 +79,7 @@
           <div class="card">
             <img
               class="card-img-top"
-              src="/img/blog5.png"
+              src="../../assets/img/blog5.png"
               alt="Card image cap"
             />
             <div class="card-body">
@@ -96,7 +96,7 @@
           <div class="card">
             <img
               class="card-img-top"
-              src="/img/blog6.png"
+              src="../../assets/img/blog6.png"
               alt="Card image cap"
             />
             <div class="card-body">

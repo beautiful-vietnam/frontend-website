@@ -5,7 +5,7 @@
     </h2>
     <b-row class="wrap-content">
       <b-col cols="12" sm="4" class="one-guide">
-        <img src="/img/icon1.png" alt="icon instagram" class="icon" />
+        <img src="../../assets/img/icon1.png" alt="icon instagram" class="icon" />
         <div>
           <p class="title-content">
             Instagram
@@ -23,7 +23,7 @@
         </div>
       </b-col>
       <b-col cols="12" sm="4" class="one-guide">
-        <img src="/img/icon3.png" alt="icon fanpage" class="icon" />
+        <img src="../../assets/img/icon3.png" alt="icon fanpage" class="icon" />
         <div>
           <p class="title-content">
             Fanpage
@@ -41,7 +41,7 @@
         </div>
       </b-col>
       <b-col cols="12" sm="4" class="one-guide">
-        <img src="/img/icon2.png" alt="icon group" class="icon" />
+        <img src="../../assets/img/icon2.png" alt="icon group" class="icon" />
         <div>
           <p class="title-content">
             Nhóm Facebook
@@ -91,7 +91,7 @@
     .read-more {
       &:after {
         content: '';
-        background: url('/img/arrow.png') no-repeat;
+        background: url('../../assets/img/arrow.png') no-repeat;
         height: 8px;
         width: 33px;
         display: inline-block;

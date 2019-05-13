@@ -3,7 +3,7 @@
     <div class="container">
       <b-navbar toggleable="lg" type="dark">
         <b-navbar-brand href="#">
-          <img src="/img/logo.png" alt="logo beautiful vietnam" class="logo" />
+          <img src="../../assets/img/logo.png" alt="logo beautiful vietnam" class="logo" />
         </b-navbar-brand>
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
         <b-collapse id="nav-collapse" is-nav>
@@ -77,7 +77,7 @@ $color-primary: #a41c66;
 
 .wrap-header {
   height: 910px;
-  background-image: url('/img/background.png');
+  background-image: url('../../assets/img/background.png');
   background-size: cover;
   .container {
     background: none;
@@ -116,7 +116,7 @@ $color-primary: #a41c66;
     max-width: 850px;
     margin-top: 3.5rem;
     .custom-input {
-      background: url('/img/oval.png') no-repeat;
+      background: url('../../assets/img/oval.png') no-repeat;
       background-position: 0 2px;
       padding: 12px 0 30px 40px;
       border-radius: 0;

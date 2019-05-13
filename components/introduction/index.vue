@@ -3,7 +3,7 @@
     <b-row>
       <b-col sm="12" lg="6">
         <img
-          src="/img/intro1.png"
+          src="../../assets/img/intro1.png"
           alt="gioi thieu ha noi"
           class="image-intro ma-3"
         />
@@ -33,7 +33,7 @@
       </b-col>
       <b-col>
         <img
-          src="/img/intro2.png"
+          src="../../assets/img/intro2.png"
           alt="gioi thieu da nang"
           class="image-intro"
         />
@@ -59,7 +59,7 @@
   bottom: 15px;
   &:after {
     content: '';
-    background: url('/img/arrow.png') no-repeat;
+    background: url('../../assets/img/arrow.png') no-repeat;
     height: 8px;
     width: 33px;
     display: inline-block;

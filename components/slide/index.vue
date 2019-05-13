@@ -1,7 +1,7 @@
 <template>
   <section class="wrap-slide">
     <img
-      src="/img/arrow-left.png"
+      src="../../assets/img/arrow-left.png"
       alt="arrow left"
       class="arrow-left"
       @click="previos"
@@ -10,11 +10,11 @@
       v-for="(item, index) in listImage"
       :key="index"
       :class="`slide-${index + 1}`"
-      :src="`/img/slide${item.id}.png`"
+      :src="require(`../../assets/img/slide${item.id}.png`)"
       :alt="`slide image ${index + 1}`"
     />
     <img
-      src="/img/arrow-right.png"
+      src="../../assets/img/arrow-right.png"
       alt="arrow left"
       class="arrow-right"
       @click="next"
@@ -29,23 +29,23 @@ export default {
       listImage: [
         {
           id: 1,
-          src: '/img/slide1.png'
+          src: '../../assets/img/slide1.png'
         },
         {
           id: 2,
-          src: '/img/slide2.png'
+          src: '../../assets/img/slide2.png'
         },
         {
           id: 3,
-          src: '/img/slide3.png'
+          src: '../../assets/img/slide3.png'
         },
         {
           id: 4,
-          src: '/img/slide4.png'
+          src: '../../assets/img/slide4.png'
         },
         {
           id: 5,
-          src: '/img/slide5.png'
+          src: '../../assets/img/slide5.png'
         }
       ]
     }

@@ -7,25 +7,25 @@
     <div class="wrap-image">
       <b-row class="mx-0">
         <b-col class="px-0" sm="12" lg="6">
-          <img src="/img/insta1.png" alt="ha noi" class="image-lg" />
+          <img src="../../assets/img/insta1.png" alt="ha noi" class="image-lg" />
           <p class="category">Hà Nội</p>
         </b-col>
         <b-col class="px-0" sm="12" lg="6">
-          <img src="/img/insta2.png" alt="da nang" class="image-lg" />
+          <img src="../../assets/img/insta2.png" alt="da nang" class="image-lg" />
           <p class="category">Đà Nẵng</p>
         </b-col>
       </b-row>
       <b-row class="mx-0 mt-1">
         <b-col class="px-0" sm="12" lg="4">
-          <img src="/img/insta3.png" alt="hue" class="image-sm mt-remove" />
+          <img src="../../assets/img/insta3.png" alt="hue" class="image-sm mt-remove" />
           <p class="category">Huế</p>
         </b-col>
         <b-col class="px-0" sm="12" lg="4">
-          <img src="/img/insta4.png" alt="ninh binh" class="image-sm" />
+          <img src="../../assets/img/insta4.png" alt="ninh binh" class="image-sm" />
           <p class="category">Ninh Bình</p>
         </b-col>
         <b-col class="px-0" sm="12" lg="4">
-          <img src="/img/insta5.png" alt="ha giang" class="image-sm" />
+          <img src="../../assets/img/insta5.png" alt="ha giang" class="image-sm" />
           <p class="category">Hà Giang</p>
         </b-col>
       </b-row>
@@ -55,7 +55,7 @@ $color-primary: #a41c66;
     float: right;
     &:after {
       content: '';
-      background: url('/img/arrow.png') no-repeat;
+      background: url('../../assets/img/arrow.png') no-repeat;
       height: 8px;
       width: 33px;
       display: inline-block;
