@@ -5165,6 +5165,13 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
+nuxt-google-optimize@^0.5.3:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/nuxt-google-optimize/-/nuxt-google-optimize-0.5.3.tgz#65d9eb013e51c8e391ef5c677c73158e04721dfe"
+  dependencies:
+    cookie "^0.3.1"
+    weighted-random "^0.1.0"
+
 nuxt@^2.4.0:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.6.2.tgz#1b40766e1a1d63b8e6fdaa3d87db4184acb2f5fd"
@@ -7808,6 +7815,10 @@ webpackbar@^3.1.5:
     std-env "^2.2.1"
     text-table "^0.2.0"
     wrap-ansi "^5.1.0"
+
+weighted-random@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/weighted-random/-/weighted-random-0.1.0.tgz#3a5469a649fc39c067e217d91b18f7402541156d"
 
 which-module@^1.0.0:
   version "1.0.0"
