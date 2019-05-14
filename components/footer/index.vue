@@ -3,7 +3,11 @@
     <div class="wrap-content container">
       <b-row>
         <b-col cols="12" sm="6" class="text-center">
-          <img src="../../assets/img/logo-footer.png" alt="logo footer" class="logo" />
+          <img
+            src="../../assets/img/logo-footer.png"
+            alt="logo footer"
+            class="logo"
+          />
         </b-col>
         <b-col cols="12" sm="2">
           <ul class="list">

@@ -12,14 +12,16 @@
 </template>
 
 <script>
-import MyHeader from '~/components/header'
-import Guide from '~/components/guide'
-import Instagram from '~/components/instagram'
-import Introduction from '~/components/introduction'
-import MyVideo from '~/components/video'
-import Blog from '~/components/blog'
-import MyFooter from '~/components/footer'
-import Slide from '~/components/slide'
+import {
+  MyHeader,
+  MyFooter,
+  MyVideo,
+  Instagram,
+  Introduction,
+  Blog,
+  Slide,
+  Guide
+} from '~/components'
 
 export default {
   components: {
