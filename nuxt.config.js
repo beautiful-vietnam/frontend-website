@@ -40,7 +40,19 @@ export default {
     // Doc: https://bootstrap-vue.js.org/docs/
     'bootstrap-vue/nuxt',
     '@nuxtjs/pwa',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-140162090-1'
+      }
+    ],
+    [
+      '@nuxtjs/google-gtag',
+      {
+        id: 'UA-140162090-1'
+      }
+    ]
   ],
   /*
    ** Axios module configuration
