@@ -1,8 +1,6 @@
 import pkg from './package'
 
 export default {
-  mode: 'spa',
-
   /*
    ** Headers of the page
    */
@@ -52,8 +50,7 @@ export default {
       {
         id: 'UA-140162090-1'
       }
-    ],
-    'nuxt-google-optimize'
+    ]
   ],
   /*
    ** Axios module configuration
