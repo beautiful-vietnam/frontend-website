@@ -4,6 +4,7 @@ export default {
   /*
    ** Headers of the page
    */
+  mode: 'universal',
   head: {
     title: 'Beautiful Viet Nam',
     meta: [
