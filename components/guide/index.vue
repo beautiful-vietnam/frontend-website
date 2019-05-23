@@ -6,7 +6,7 @@
     <b-row class="wrap-content">
       <b-col cols="12" sm="4" class="one-guide">
         <img
-          src="../../assets/img/icon1.png"
+          src="../../assets/img/icon3.png"
           alt="icon instagram"
           class="icon"
         />
