@@ -51,8 +51,7 @@
             <li class="connect">LIÊN HỆ</li>
             <li>Email: beautiful.vietnam.official@gmail.com</li>
             <li>
-              Địa chỉ: Tầng 4 - Hòa Bình Green City - 505 Minh Khai - Hai Bà
-              Trưng - Hà Nội
+              Địa chỉ: 22C Thành Công - Ba Đình - Hà Nội
             </li>
             <li>
               Developed by:
