@@ -5,7 +5,11 @@
     </h2>
     <b-row class="wrap-content">
       <b-col cols="12" sm="4" class="one-guide">
-        <img src="../../assets/img/icon1.png" alt="icon instagram" class="icon" />
+        <img
+          src="../../assets/img/icon1.png"
+          alt="icon instagram"
+          class="icon"
+        />
         <div>
           <p class="title-content">
             Instagram
